@@ -5,6 +5,7 @@ Everything about choosing, storing, and using hops — with NEIPAs as the primar
 ## Contents
 
 - **[`varieties.md`](varieties.md)** — hop-by-hop reference profiles. ~30 varieties with oils, descriptors, what they pair with.
+- **[`varieties/`](varieties/)** — single-variety deep dives (Citra, Galaxy, Mosaic, Nelson Sauvin). More depth than the reference; useful when designing a recipe around a specific hop.
 - **[`dry-hopping.md`](dry-hopping.md)** — the deep one. Janish synthesis on timing, biotransformation, hop creep, polyphenols, and DO control. Read this before you design a recipe.
 - **[`products.md`](products.md)** — T-90 vs T-45 vs Cryo® vs Spectrum® vs whole-cone. When to use what.
 - **[`storage-oxidation.md`](storage-oxidation.md)** — how hops degrade, how to slow it, what off-aromas to recognize.
