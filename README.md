@@ -8,7 +8,8 @@ The repo is named "yeastlab" because the work started with yeast — but **coffe
 
 Pick the craft you're here for:
 
-- **[`sourdough/methods/double-enzymatic-activation.md`](sourdough/methods/double-enzymatic-activation.md)** — the headline sourdough method. A low-maintenance cold-fed-levain workflow built around enzyme timing rather than recipe slavishness.
+- **[`sourdough/course/`](sourdough/course/)** — **brand new to sourdough?** Start with the 4-week beginner course. From scratch starter to weekly DEAM rhythm.
+- **[`sourdough/methods/double-enzymatic-activation.md`](sourdough/methods/double-enzymatic-activation.md)** — the headline sourdough method (full reference). A low-maintenance cold-fed-levain workflow built around enzyme timing rather than recipe slavishness.
 - **[`beer/styles/neipa.md`](beer/styles/neipa.md)** + **[`beer/hops/dry-hopping.md`](beer/hops/dry-hopping.md)** — NEIPA-first beer section, with Scott Janish's dry-hopping research as the spine.
 - **[`coffee/water/recipes.md`](coffee/water/recipes.md)** — the fastest path to better coffee is better water. Start here.
 - **[`coffee/processing/`](coffee/processing/)** — how the bean got the way it is, fermentation-wise.
