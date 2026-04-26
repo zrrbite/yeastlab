@@ -40,7 +40,8 @@ This section is **NEIPA-first** but expanded into the broader American IPA famil
 
 ### Process
 
-- **[`process/whirlpool.md`](process/whirlpool.md)** — the 180 °F window per Janish.
+- **[`process/mashing.md`](process/mashing.md)** — mash temp, step mashes, mash-out, lautering, stuck-mash recovery for high-adjunct grain bills.
+- **[`process/whirlpool.md`](process/whirlpool.md)** — the 180 °F window per Janish, plus practical mechanics, multi-temp strategies, cold steep, acidification timing.
 - **[`process/fermentation.md`](process/fermentation.md)** — ferm temps, biotransformation timing.
 - **[`process/packaging.md`](process/packaging.md)** — closed transfers, FermZilla low-DO pipeline.
 - **[`process/temperature-control.md`](process/temperature-control.md)** — KegLand fermentation chamber and temperature playbook.
@@ -71,7 +72,7 @@ beer/
 ├── yeast-strains.md              # London III, Conan, kveik, Chico (US-05)
 ├── yeast-products-neipa.md       # liquid vs dry comparison
 ├── yeast-starters.md             # when starters matter and when they don't
-├── process/                      # whirlpool, fermentation, packaging, temp control
+├── process/                      # mashing, whirlpool, fermentation, packaging, temp control
 ├── recipes/                      # NEIPA, WCIPA, DIPA, Cold IPA, single-hop
 ├── brew-day-workflow.md          # practical brew day playbook
 ├── house-recipes.md              # building a rotation
