@@ -47,7 +47,7 @@ If your kit differs (BIAB, no pressure fermenter, bottles), most of the recipes 
 The NEIPA content draws heavily on:
 
 - **Scott Janish** — [scottjanish.com](https://scottjanish.com) and *The New IPA: Scientific Guide to Hop Aroma and Flavor*
-- **Yakima Chief Hops** — [Hop & Brew School](https://www.yakimachief.com/blog/hop-and-brew-school) educational series
+- **Yakima Chief Hops** — Hop & Brew School podcast series and annual brewer-education event
 
 See [`references.md`](references.md) for the full list.
 

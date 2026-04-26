@@ -37,17 +37,12 @@ These are the underlying papers Janish synthesizes. Recorded here so the chain b
 - Takoi, K. 2019. "Behavior of hop-derived branched-chain fatty acids during fermentation and their sensory effect on hopped beer flavours." *BrewingScience* 72:196–206.
 - Wilson, R., Schwarz, H., and Maye, J. 2012. "A natural foam enhancer from hops." World Brewing Congress, Portland, OR.
 
-## Yakima Chief Hops — Hop & Brew School
+## Yakima Chief Hops
 
-Industry educational series from Yakima Chief Hops, one of the largest hop suppliers in the US.
+One of the largest hop suppliers in the US. Their educational content and product literature is foundational to modern hop-forward brewing.
 
-- **[yakimachief.com/blog/hop-and-brew-school](https://www.yakimachief.com/blog/hop-and-brew-school)** — articles, video content, and presentations covering:
-  - Hop variety profiles and oil chemistry
-  - Cryo Hops® (lupulin powder), Spectrum® (hop oil), T-90 vs T-45 pellets
-  - Storage, freshness, and oxidation
-  - Whirlpool, dry-hopping, and biotransformation techniques
-  - Sensory training
-- **[Hop Variety Sheets](https://www.yakimachief.com/commercial/hop-varieties)** — the canonical reference for variety descriptors, oil composition (alpha %, beta %, total oils, myrcene, humulene, caryophyllene, farnesene, linalool, geraniol). Used directly when writing [`hops/varieties.md`](hops/varieties.md).
+- **Hop & Brew School** — a brewer-education **podcast series** plus an **annual physical event** hosted at Yakima Chief Hops in Yakima, WA. Sessions cover hop variety profiles, oil chemistry, Cryo Hops® (lupulin powder), Spectrum® (hop oil), T-90 vs T-45 pellets, storage and oxidation, whirlpool and dry-hopping techniques, biotransformation, and sensory training. Find the podcast on the major podcast platforms; the event runs roughly annually.
+- **[Hop Variety Sheets](https://www.yakimachief.com/commercial/hop-varieties)** — canonical reference for variety descriptors and oil composition (alpha %, beta %, total oils, myrcene, humulene, caryophyllene, farnesene, linalool, geraniol). Used directly when writing [`hops/varieties.md`](hops/varieties.md).
 
 ## Other useful primary sources
 
@@ -67,4 +62,4 @@ Industry educational series from Yakima Chief Hops, one of the largest hop suppl
 
 Each major claim in [`hops/dry-hopping.md`](hops/dry-hopping.md), [`process/fermentation.md`](process/fermentation.md), and the variety profiles in [`hops/varieties.md`](hops/varieties.md) traces back to one of the sources above. Where a specific blog post or book chapter is the source, it's cited inline.
 
-This repo is **not a substitute** for reading Janish's book or watching the Hop & Brew School material. It's a working synthesis to support recipe development and process decisions — a brewer's notebook, organized.
+This repo is **not a substitute** for reading Janish's book or listening to the Hop & Brew School podcast. It's a working synthesis to support recipe development and process decisions — a brewer's notebook, organized.
