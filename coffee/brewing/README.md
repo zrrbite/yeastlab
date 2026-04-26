@@ -1,45 +1,42 @@
 # Coffee brewing
 
-Stub — to be expanded. The brewing methods you'll likely care about and what makes each different:
+Brewing methods covered in depth, with method-specific water and technique notes. Each file is a working reference, not an introduction.
 
-## The methods
+## Methods
 
-- **Espresso** — high pressure (9 bar), high temperature (~93 °C), short contact (25–30 sec), 1:2 ratio (e.g., 18 g in → 36 g out). Concentrated, body-forward, hardware-intensive.
-- **Pour-over (V60, Origami, Kalita Wave, Chemex)** — low-pressure gravity drip through filter. Total contact ~2.5–4 min. Clean, articulate, brightness-forward.
-- **AeroPress** — manual pressure (low compared to espresso), short contact, paper filter. Versatile — can brew espresso-like or filter-like depending on recipe.
-- **French press / immersion brewers** — full immersion, no filter. 4 min contact. Heavy body, sediment-rich, full extraction.
-- **Cold brew** — long-time (12–24 hr) cold-water immersion. Sweet, low-acid, smooth.
-- **Moka pot** — stovetop pressure brewer. Between espresso and filter. Italian home tradition.
+- **[`v60.md`](v60.md)** — pour-over with the Hario V60. The most articulate brewer, ideal for showcasing a single-origin. Multi-pour technique, full troubleshooting matrix.
+- **[`aeropress.md`](aeropress.md)** — the most versatile brewer. Standard and inverted methods, classic Hoffmann recipe, espresso-style, cold brew variations.
+- **[`espresso.md`](espresso.md)** — high-pressure concentrated brewing. Equipment overview, recipe template, light vs dark roast espresso traditions, water and machine maintenance considerations.
 
-## What matters across methods
+## What this folder skips (intentionally)
 
-- **Grind size** — finer for shorter contact (espresso = fine; cold brew = coarse).
-- **Ratio** — coffee : water. Standard filter is around 1:16 (60 g/L). Espresso is 1:2.
-- **Water temperature** — 88–96 °C for hot brewing. Lower for some specific recipes (lactic-inoculated coffees benefit from slightly cooler).
-- **Extraction yield** — % of coffee mass that ends up in the cup. Target 18–22% for most methods.
-- **TDS in the cup** — how strong it tastes (separate from extraction yield). Filter ~1.3–1.5%, espresso ~8–12%.
-- **Water mineral profile** — see [`../water/`](../water/). The single biggest variable across all methods.
+- **French press** — well-covered everywhere; comes down to "coarse grind, 4 min steep, plunge slowly"
+- **Moka pot** — Italian household classic; espresso-adjacent
+- **Cold brew immersion** — 12-hour steep at room temp; covered briefly in AeroPress notes (the "fast cold brew") and in the espresso notes for context
 
-## Why this folder is mostly empty
+These methods are simple enough that the standard advice elsewhere covers them well. The three files here go into depth where depth pays off.
 
-The brewing methods themselves are well-covered in many other resources (Hoffmann, Rao, Barista Hustle, etc.). What's *not* well-covered is how brewing interacts with **water** and **bean processing**, which are the two areas this repo focuses on.
+## What matters across all methods
 
-If brewing-method-specific files get written here, they'll focus on:
+- **Grind** — burr grinder essential; size matched to method
+- **Water** — see [`../water/`](../water/) — this is the biggest single quality lever across all methods
+- **Beans** — fresh, well-stored, fitting roast level for the method
+- **Ratio** — coffee:water ratio adjusted for method (1:2 espresso, 1:16 filter, 1:14 strong filter, etc.)
+- **Temperature** — varies by method and roast level
 
-- Method-specific water recipe recommendations
-- How processing affects the right brewing approach
-- Equipment notes from a "what actually matters" perspective
+## Method comparison
 
-## In the meantime
-
-For brewing technique, see:
-
-- **James Hoffmann's YouTube channel** — the most accessible modern reference
-- **Scott Rao** — *The Professional Barista's Handbook*, *Coffee Roaster's Companion*
-- **Barista Hustle** — articles and paid courses
-- **r/Coffee, r/EspressoTechnique** — community Q&A
+| Method        | Time      | Body       | Clarity   | Difficulty | Cost (kit) |
+|---------------|-----------|------------|-----------|------------|------------|
+| Espresso      | 30 sec    | Heavy      | Low       | Hard       | $$$        |
+| V60           | 3 min     | Light      | High      | Medium     | $          |
+| AeroPress     | 2 min     | Variable   | Medium-high | Easy     | $          |
+| French Press  | 4 min     | Heavy      | Low       | Easy       | $          |
+| Moka Pot      | 4 min     | Medium-heavy | Low-med | Easy       | $          |
+| Cold Brew     | 12+ hours | Heavy      | Medium    | Easy       | $          |
 
 ## Cross-references
 
-- **[`../water/`](../water/)** — pick water for your method
+- **[`../water/`](../water/)** — water profiles by brewing method
 - **[`../processing/`](../processing/)** — what's in the bean
+- **[`../roasting.md`](../roasting.md)** — Aillio Bullet R2 roasting guide

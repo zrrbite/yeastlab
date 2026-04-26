@@ -11,7 +11,8 @@ Water is also where this whole project started. The same minerals that make a gr
 
 - **[`water/`](water/)** — water recipes for coffee. Mineral profiles, third-wave brewing community formulations (SCA, Lotus, Third Wave Water), DIY recipes, the chemistry behind each ion's effect.
 - **[`processing/`](processing/)** — what happens between cherry and green bean. Washed, natural, honey, anaerobic, and the experimental territory (carbonic maceration, lactic, thermal shock).
-- **[`brewing/`](brewing/)** — placeholder for now. Pour-over, espresso, AeroPress, French press, cold brew. Each has its own water sweet spot.
+- **[`brewing/`](brewing/)** — V60, AeroPress, espresso. Each has its own water sweet spot and technique tradition.
+- **[`roasting.md`](roasting.md)** — coffee roasting on the Aillio Bullet R2 (the first commercial induction-heated drum roaster). Profile principles, reference profiles by bean origin, troubleshooting.
 
 ## How coffee fits the rest of the repo
 
