@@ -208,6 +208,15 @@ This entire workflow **bypasses starter equipment and the 3-day timeline.** It's
 
 If you ever want to use liquid yeast for a specific strain (chasing a brewery clone, doing a Brett-aged saison, etc.) — **then make a starter**. But for routine NEIPA brewing, you can run an entire brewing operation without ever making a starter.
 
+## Sources
+
+- **Mr. Malty Pitch Rate Calculator** ([mrmalty.com](http://mrmalty.com)) — Jamil Zainasheff's classic homebrewing tool. Foundation for the cell count math.
+- **Brewer's Friend Yeast Pitch Rate Calculator** — modern web equivalent.
+- **Brewfather** — full brewing software with built-in starter calculator.
+- **Wyeast / White Labs / Imperial / Lallemand** technical documentation for cell counts in their respective products.
+- The "vitality starter" concept and the practical case for dry yeast pitch counts is brewing community consensus.
+- See [`references.md`](references.md) for the full reference list.
+
 ## Cross-references
 
 - **[`yeast-products-neipa.md`](yeast-products-neipa.md)** — liquid vs dry yeast comparison

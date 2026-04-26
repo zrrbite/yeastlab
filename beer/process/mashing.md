@@ -292,6 +292,13 @@ The same brewer can pull all four off with the same kit — just different mash 
 
 Master this once and it transfers across all your brewing.
 
+## Sources
+
+- **John Mallett — *Malt: A Practical Guide from Field to Brewhouse*** (2014). Reference for malt chemistry, especially β-glucan content of oats and wheat (the stuck-mash culprits) and the case for protein rests in highly-modified vs under-modified malts.
+- **John Palmer — *How to Brew*** (4th ed., 2017). Standard reference for mash temperature ranges and their fermentability effects.
+- The **rice hulls trick** for high-adjunct mashes is brewing community consensus; not from a single source but universally recommended for NEIPA-style grain bills.
+- See [`../references.md`](../references.md) for the full reference list.
+
 ## Cross-references
 
 - **[`whirlpool.md`](whirlpool.md)** — the next phase after the boil

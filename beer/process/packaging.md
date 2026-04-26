@@ -171,6 +171,14 @@ Pro NEIPA brewers can their beer because it's the best balance of low-DO packagi
 
 If you do want to can at home, products like the **Beer Gun + manual seamer** workflow are workable but require practice. Keg first, master that, then consider canning.
 
+## Sources
+
+- **Janish, S. 2021.** "Dry Hop Best Practices." *MBAA TQ* 58(1):59–65. The DO discussion in his MBAA TQ paper (especially the dry hop doser approach used at Sapwood Cellars) underpins the closed-transfer thinking in this file.
+- **Janish, S. 2019.** *The New IPA*. Extended treatment of DO control across the brewing pipeline.
+- **KegLand documentation** — FermZilla All Rounder specifications and operational guidance.
+- DO target ranges (< 30 ppb pro target, < 100 ppb homebrew target) are brewing community consensus.
+- See [`../references.md`](../references.md) for the full reference list.
+
 ## Cross-references
 
 - **[`../hops/dry-hopping.md`](../hops/dry-hopping.md)** — DO matters all the way through, not just at packaging

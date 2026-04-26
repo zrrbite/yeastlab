@@ -277,3 +277,11 @@ For occasional brewing or moderate tap water: **RO from a grocery kiosk** ($0.30
 - **[`recipes/neipa-template.md`](recipes/neipa-template.md)** — recipe-level water salt amounts
 - **[`recipes/west-coast-ipa.md`](recipes/west-coast-ipa.md)** — WCIPA water (inverted from NEIPA)
 - **[`recipes/cold-ipa.md`](recipes/cold-ipa.md)** — Cold IPA water (mild SO₄-leaning)
+
+## Sources
+
+- **John Palmer & Colin Kaminski — *Water: A Comprehensive Guide for Brewers*** (2013). The foundational reference for tap-water adjustment and the science behind dilution.
+- **Bru'n Water** — community spreadsheet for brewing water calculations. Standard among serious homebrewers.
+- **Brewer's Friend Water Tool** — web-based water calculator.
+- **Ward Laboratories** ([wardlab.com](https://www.wardlab.com)) — the standard brewing community lab for water testing.
+- See [`references.md`](references.md) for the full reference list.

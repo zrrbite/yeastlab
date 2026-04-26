@@ -279,6 +279,15 @@ After whirlpool:
 - [ ] **Transfer wort to fermenter** (try to leave trub in kettle)
 - [ ] **Pitch yeast immediately** after oxygenation
 
+## Sources
+
+The headline whirlpool recommendations in this file trace back to:
+
+- **Janish, S. 2021.** "Dry Hop Best Practices." *MBAA TQ* 58(1):59–65. Source for the **180 °F (82 °C) whirlpool recommendation**, the **survivable-compound hops list** (Idaho 7, Mosaic, Bravo, Citra, Millennium, Mount Hood, Ekuanot, Simcoe), the **post-boil pH 4.8–4.9 acidification recommendation**, and the rationale for matching whirlpool dose with dry-hop dose.
+- **Janish, S. 2019.** *The New IPA*. Background on hop oil retention through the brewing process; survivable compound classes.
+- **Inui, T. 2012.** "Study on the attractive hop aroma for beer." World Brewing Congress, Portland, OR. Original source for the linalool retention finding (cited in Janish's MBAA TQ paper) — the foundation for cooler whirlpool temperatures.
+- See [`../references.md`](../references.md) for the full reference list.
+
 ## Cross-references
 
 - **[`../hops/dry-hopping.md`](../hops/dry-hopping.md)** — what whirlpool sets up for the dry hop strategy

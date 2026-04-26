@@ -128,3 +128,11 @@ The "I made a perfect NEIPA water profile and the beer is still mediocre" proble
 - **[`hops/dry-hopping.md`](hops/dry-hopping.md)** — how dry hopping interacts with beer pH
 - **[`process/whirlpool.md`](process/whirlpool.md)** — boil/whirlpool pH considerations
 - **[`recipes/neipa-template.md`](recipes/neipa-template.md)** — water salts in the recipe template
+
+## Sources
+
+- **John Palmer & Colin Kaminski — *Water: A Comprehensive Guide for Brewers*** (2013). The standard reference for brewing water across all styles. Foundation for the ion-by-ion thinking and the chloride-vs-sulfate analysis.
+- **Janish, S. 2021.** "Dry Hop Best Practices." *MBAA TQ* 58(1):59–65. Source for the **dry-hop pH rise (~0.036 per 3 lb/bbl)** finding and the **mash pH 5.2–5.3 + post-boil 4.8–4.9 + final 4.2–4.4** Sapwood Cellars pH playbook.
+- **Lafontaine, S. & Shellhammer, T. 2018.** "Impact of static dry hopping rate on the sensory and analytical profiles of beer." Original research on dry-hop pH increase, cited in Janish's MBAA TQ paper.
+- **Meilgaard, M. & Trolle, B. 1957.** "The utilization of hops in the brewhouse." Original research on perceived bitterness as a function of pH (cited in Janish's paper).
+- See [`references.md`](references.md) for the full reference list.

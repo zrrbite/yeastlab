@@ -42,15 +42,72 @@ These are the underlying papers Janish synthesizes. Recorded here so the chain b
 One of the largest hop suppliers in the US. Their educational content and product literature is foundational to modern hop-forward brewing.
 
 - **Hop & Brew School** — a brewer-education **podcast series** plus an **annual physical event** hosted at Yakima Chief Hops in Yakima, WA. Sessions cover hop variety profiles, oil chemistry, Cryo Hops® (lupulin powder), Spectrum® (hop oil), T-90 vs T-45 pellets, storage and oxidation, whirlpool and dry-hopping techniques, biotransformation, and sensory training. Find the podcast on the major podcast platforms; the event runs roughly annually.
-- **[Hop Variety Sheets](https://www.yakimachief.com/commercial/hop-varieties)** — canonical reference for variety descriptors and oil composition (alpha %, beta %, total oils, myrcene, humulene, caryophyllene, farnesene, linalool, geraniol). Used directly when writing [`hops/varieties.md`](hops/varieties.md).
+- **[Hop Variety Sheets](https://www.yakimachief.com/commercial/hop-varieties)** — canonical reference for variety descriptors and oil composition (alpha %, beta %, total oils, myrcene, humulene, caryophyllene, farnesene, linalool, geraniol). Used directly when writing [`hops/varieties.md`](hops/varieties.md) and the deep-dive variety files in [`hops/varieties/`](hops/varieties/).
 
-## Other useful primary sources
+## Other primary sources by topic
 
-- **John Mallett — *Malt: A Practical Guide from Field to Brewhouse*** (2014). Reference for malt chemistry, especially relevant to NEIPA grist (oats, wheat, β-glucans).
-- **Charlie Bamforth — *Beer: Tap into the Art and Science of Brewing*** (3rd ed., 2009). Classical brewing science textbook.
-- **John Palmer & Colin Kaminski — *Water: A Comprehensive Guide for Brewers*** (2013). The water chapter for any style. NEIPA water profiles trace back here.
-- **Stan Hieronymus — *For the Love of Hops*** (2012). Pre-NEIPA but the best single reference on hop varieties and history.
+### Water chemistry
+
+- **John Palmer & Colin Kaminski — *Water: A Comprehensive Guide for Brewers*** (2013). The standard reference for brewing water across all styles. Used directly in [`water.md`](water.md), [`water-tap-adjustments.md`](water-tap-adjustments.md), and the cross-craft [`../theory/water-minerals.md`](../theory/water-minerals.md).
+- **Bru'n Water** — community spreadsheet/tool for brewing water calculations. Standard among serious homebrewers.
+- **Brewer's Friend Water Tool** — web-based water calculator.
+
+### Malt and mash
+
+- **John Mallett — *Malt: A Practical Guide from Field to Brewhouse*** (2014). Reference for malt chemistry. Especially relevant to high-adjunct NEIPA grist (oats, wheat, β-glucans). Informs [`process/mashing.md`](process/mashing.md).
+- **John Palmer — *How to Brew*** (4th ed., 2017). The canonical homebrewing reference. Mash, water, fermentation fundamentals.
+
+### Hops broadly
+
+- **Stan Hieronymus — *For the Love of Hops*** (2012). Pre-NEIPA but the best single reference on hop varieties and history. Foundational for the variety files.
 - **Mark Garetz — *Using Hops: The Complete Guide to Hops for the Craft Brewer*** (1994). Older but the chemistry chapters still hold up.
+
+### General brewing science
+
+- **Charlie Bamforth — *Beer: Tap into the Art and Science of Brewing*** (3rd ed., 2009). Classical brewing science textbook.
+- **Michael Lewis & Tom Young — *Brewing*** (2nd ed., 2002). More academic; the standard university brewing science textbook.
+
+### Yeast and pitch rates
+
+- **Mr. Malty Pitch Rate Calculator** ([mrmalty.com](http://mrmalty.com)) — Jamil Zainasheff's classic. Informs [`yeast-starters.md`](yeast-starters.md) cell count math.
+- **Brewer's Friend Yeast Pitch Rate Calculator** — modern web equivalent.
+- **Brewfather** — full brewing software with built-in starter and pitch rate tools.
+- **Lallemand Brewers Yeast** — manufacturer technical sheets for dry yeast strains. Authoritative for Verdant IPA, Voss, etc.
+- **Wyeast** and **White Labs** — strain catalogs and technical specifications.
+
+### Style guidelines
+
+- **BJCP (Beer Judge Certification Program) Style Guidelines** ([bjcp.org](https://www.bjcp.org/)) — formal style definitions; useful for understanding the boundaries between styles.
+
+## Where each source informs the repo
+
+| File | Primary sources |
+|------|-----------------|
+| [`hops/dry-hopping.md`](hops/dry-hopping.md) | Janish (MBAA TQ 2021, *The New IPA*, blog) — load-bearing |
+| [`hops/varieties.md`](hops/varieties.md) | Yakima Chief Hop Variety Sheets, Janish (compound mappings), Hieronymus |
+| [`hops/varieties/`](hops/varieties/) (deep dives) | Same as above plus producer/breeder publications |
+| [`hops/sensory-analysis.md`](hops/sensory-analysis.md) | Janish blog on sensory; Yakima Chief sensory training material |
+| [`hops/products.md`](hops/products.md) | Yakima Chief (Cryo Hops); John I. Haas (Lupomax); Janish |
+| [`hops/storage-oxidation.md`](hops/storage-oxidation.md) | Janish on oxidation; brewing community consensus |
+| [`process/mashing.md`](process/mashing.md) | Mallett (*Malt*), Palmer (*How to Brew*); homebrewing community consensus |
+| [`process/whirlpool.md`](process/whirlpool.md) | Janish (180 °F recommendation, post-boil pH); Inui 2012 (linalool retention) |
+| [`process/fermentation.md`](process/fermentation.md) | Janish (active-ferm dry hop timing, hop creep) |
+| [`process/packaging.md`](process/packaging.md) | Janish on DO; brewing community on closed transfers |
+| [`process/temperature-control.md`](process/temperature-control.md) | Brewing community on chambers; KegLand documentation |
+| [`water.md`](water.md) | Palmer & Kaminski (*Water*); Janish (NEIPA-specific pH) |
+| [`water-tap-adjustments.md`](water-tap-adjustments.md) | Palmer & Kaminski (*Water*); Bru'n Water; Ward Labs |
+| [`yeast-strains.md`](yeast-strains.md) | Wyeast / White Labs / Imperial / Lallemand technical sheets |
+| [`yeast-products-neipa.md`](yeast-products-neipa.md) | Manufacturer specs; brewing community consensus on Verdant IPA |
+| [`yeast-starters.md`](yeast-starters.md) | Mr. Malty; Brewer's Friend; Wyeast/White Labs |
+| [`brew-day-workflow.md`](brew-day-workflow.md) | Personal practice; FermZilla / KegLand documentation |
+| [`house-recipes.md`](house-recipes.md) | Original framework; influenced by Sapwood Cellars iteration practice |
+| [`styles/neipa.md`](styles/neipa.md) | Janish; brewing community; Sapwood Cellars |
+| [`styles/west-coast-ipa.md`](styles/west-coast-ipa.md) | Russian River publications (Pliny the Elder); Sierra Nevada |
+| [`styles/cold-ipa.md`](styles/cold-ipa.md) | Wayfinder Brewing publications (Kevin Davey) |
+| [`styles/saison.md`](styles/saison.md) | Stan Hieronymus (*Brew Like a Monk*); Brasserie Dupont publications |
+| [`styles/pilsner.md`](styles/pilsner.md) | Pilsner Urquell publications; BJCP guidelines |
+| [`styles/stout.md`](styles/stout.md) | BJCP guidelines; Guinness publications; brewing community |
+| [`styles/mixed-fermentation.md`](styles/mixed-fermentation.md) | Milk the Funk Wiki; Sour Beer (Tonsmeire); Cantillon publications |
 
 ## Brewing forums / community
 
@@ -58,8 +115,17 @@ One of the largest hop suppliers in the US. Their educational content and produc
 - **[Homebrewers Association forum](https://www.homebrewersassociation.org/forum/)** — practical Q&A.
 - **[r/Homebrewing](https://reddit.com/r/Homebrewing)** and **[r/TheBrewery](https://reddit.com/r/TheBrewery)** — variable quality but useful for current trends.
 
+## Cross-craft sources (for theory/ files)
+
+For sources used in `theory/` (cross-craft science) and the sourdough/coffee sections, see:
+
+- [`../sourdough/methods/double-enzymatic-activation.md`](../sourdough/methods/double-enzymatic-activation.md) — original DEAM PDF in `doc/`; conversations with [u/BreadBakingAtHome](https://www.reddit.com/user/BreadBakingAtHome/)
+- [`../coffee/README.md`](../coffee/README.md) — Maxwell Colonna-Dashwood & Christopher Hendon, Scott Rao, James Hoffmann, SCA standards, Barista Hustle
+
 ## How citations are used in this repo
 
-Each major claim in [`hops/dry-hopping.md`](hops/dry-hopping.md), [`process/fermentation.md`](process/fermentation.md), and the variety profiles in [`hops/varieties.md`](hops/varieties.md) traces back to one of the sources above. Where a specific blog post or book chapter is the source, it's cited inline.
+Each major claim in [`hops/dry-hopping.md`](hops/dry-hopping.md), [`process/fermentation.md`](process/fermentation.md), [`process/whirlpool.md`](process/whirlpool.md), and the variety profiles in [`hops/varieties.md`](hops/varieties.md) traces back to one of the sources above. Where a specific blog post or book chapter is the source, it's cited inline.
 
 This repo is **not a substitute** for reading Janish's book or listening to the Hop & Brew School podcast. It's a working synthesis to support recipe development and process decisions — a brewer's notebook, organized.
+
+Where you see a specific number (like "180 °F whirlpool" or "1–3 day extraction" or "0.036 pH per 3 lb/bbl"), the source is **Janish's MBAA TQ 2021 paper** unless otherwise noted. Read the paper.

@@ -188,6 +188,15 @@ A small notebook beats memory. Pattern recognition across batches is how you get
 - **Kegging with active hop creep.** Over-carbonates the keg, stresses yeast, can regenerate diacetyl in the package.
 - **Opening the fermenter for "a quick peek."** Real, measurable O₂ damage. Use a port adapter.
 
+## Sources
+
+The fermentation timing recommendations in this file trace back to:
+
+- **Janish, S. 2021.** "Dry Hop Best Practices." *MBAA TQ* 58(1):59–65. Source for the **active-fermentation dry hop window (50–70% attenuation)**, the **hop creep** discussion (and the cool/short vs warm/extended schools of thought, with Sapwood Cellars + Great Notion procedures), and the underlying biotransformation chemistry.
+- **Janish, S. 2019.** *The New IPA*. Background on yeast strain behavior with hops, oxygen handling through fermentation.
+- **Kirkpatrick, K. & Shellhammer, T. 2017.** "Investigating enzymatic power of hops." Original research on hop diastatic enzymes (the cause of hop creep), cited in Janish's MBAA TQ paper.
+- See [`../references.md`](../references.md) for the full reference list.
+
 ## Cross-references
 
 - **[`../hops/dry-hopping.md`](../hops/dry-hopping.md)** — Janish synthesis on dry-hop technique and biotransformation
