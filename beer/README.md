@@ -2,35 +2,47 @@
 
 Brewers yeast and the rest of the chemistry that turns wort into beer. Same fundamentals as bread (see [`../theory/bread-vs-beer.md`](../theory/bread-vs-beer.md)) — different staging.
 
-This section is **NEIPA-first by intent**: depth over breadth, hop-head bias, low-DO pipeline assumed. Other styles can come later. The structure is general enough to absorb them.
+This section is **NEIPA-first** but expanding into the broader American IPA family. Depth over breadth, hop-head bias, low-DO pipeline assumed. The structure is general enough to absorb other styles.
 
 ## Where to start
 
-- **[`styles/neipa.md`](styles/neipa.md)** — the style itself: history, defining traits, what "good" tastes and looks like, the haze stability problem, the freshness clock.
-- **[`hops/dry-hopping.md`](hops/dry-hopping.md)** — the headline content. Synthesizes Scott Janish's research (blog + *The New IPA*) on timing, biotransformation, hop creep, polyphenols, and dissolved-oxygen control.
-- **[`hops/varieties.md`](hops/varieties.md)** — hop-by-hop reference profiles: oils, descriptors, what they pair with, NEIPA fit.
-- **[`recipes/neipa-template.md`](recipes/neipa-template.md)** — parameterized base recipe. Plug in your hop choices.
+- **[`styles/`](styles/)** — style index. NEIPA, West Coast IPA, and a comparison file.
+- **[`styles/neipa.md`](styles/neipa.md)** — the original headline style: hazy, juicy, soft.
+- **[`styles/west-coast-ipa.md`](styles/west-coast-ipa.md)** — clear, dry, piney — the inverted twin of NEIPA.
+- **[`styles/comparison.md`](styles/comparison.md)** — NEIPA / Modern WCIPA / Classic WCIPA / Cold IPA at a glance.
+- **[`hops/dry-hopping.md`](hops/dry-hopping.md)** — the headline content. Synthesizes Scott Janish's research (blog + *The New IPA* + MBAA TQ paper) on timing, biotransformation, hop creep, polyphenols, and dissolved-oxygen control.
+- **[`hops/varieties.md`](hops/varieties.md)** — hop-by-hop reference profiles: oils, descriptors, what they pair with.
+- **[`hops/sensory-analysis.md`](hops/sensory-analysis.md)** — sensory framework for evaluating hops: dry rub, cold tea, hot tea, in beer.
+- **[`recipes/neipa-template.md`](recipes/neipa-template.md)** — NEIPA base recipe.
+- **[`recipes/west-coast-ipa.md`](recipes/west-coast-ipa.md)** — WCIPA template.
+- **[`recipes/west-coast-dipa.md`](recipes/west-coast-dipa.md)** — WCIPA DIPA at ~9%.
 
 ## Layout
 
 ```
 beer/
-├── styles/                    # style definitions (NEIPA only for now)
+├── styles/                       # style definitions
+│   ├── neipa.md                  # New England IPA
+│   ├── west-coast-ipa.md         # West Coast IPA (modern + classic)
+│   └── comparison.md             # IPA family side-by-side
 ├── hops/
-│   ├── varieties.md           # hop-by-hop profiles
-│   ├── dry-hopping.md         # Janish synthesis
-│   ├── products.md            # T-90, T-45, Cryo, Spectrum — when to use what
-│   └── storage-oxidation.md   # how hops degrade and how to fight it
-├── water.md                   # NEIPA chloride/sulfate, mash pH
-├── yeast-strains.md           # London III, Conan, kveik, English ale strains
+│   ├── varieties.md              # ~30 hop-by-hop profiles
+│   ├── dry-hopping.md            # Janish synthesis
+│   ├── products.md               # T-90, T-45, Cryo, Spectrum
+│   ├── storage-oxidation.md      # degradation and storage
+│   └── sensory-analysis.md       # evaluation framework
+├── water.md                      # NEIPA chloride-forward profile (WCIPA inverts this)
+├── yeast-strains.md              # London III, Conan, kveik, Chico (US-05)
 ├── process/
-│   ├── whirlpool.md           # the 170°F window, oil retention vs bitterness
-│   ├── fermentation.md        # ferm temps, biotransformation timing, free-rise
-│   └── packaging.md           # closed transfers, spunding, FermZilla notes, the freshness clock
+│   ├── whirlpool.md              # the 180 °F window per Janish
+│   ├── fermentation.md           # ferm temps, biotransformation timing
+│   └── packaging.md              # closed transfers, FermZilla low-DO pipeline
 ├── recipes/
-│   ├── neipa-template.md      # base recipe to swap hops into
-│   └── single-hop-experiments.md   # framework for learning hop varieties
-└── references.md              # Janish, Yakima Chief, others
+│   ├── neipa-template.md         # NEIPA base
+│   ├── west-coast-ipa.md         # Modern WCIPA
+│   ├── west-coast-dipa.md        # WCIPA DIPA
+│   └── single-hop-experiments.md # framework for learning hop varieties
+└── references.md                 # Janish (blog + book + MBAA TQ), YCH, foundational papers
 ```
 
 ## Equipment assumed

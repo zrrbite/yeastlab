@@ -4,10 +4,11 @@ Everything about choosing, storing, and using hops — with NEIPAs as the primar
 
 ## Contents
 
-- **[`varieties.md`](varieties.md)** — hop-by-hop reference profiles. ~30 varieties relevant to NEIPA, with oils, descriptors, what they pair with.
+- **[`varieties.md`](varieties.md)** — hop-by-hop reference profiles. ~30 varieties with oils, descriptors, what they pair with.
 - **[`dry-hopping.md`](dry-hopping.md)** — the deep one. Janish synthesis on timing, biotransformation, hop creep, polyphenols, and DO control. Read this before you design a recipe.
 - **[`products.md`](products.md)** — T-90 vs T-45 vs Cryo® vs Spectrum® vs whole-cone. When to use what.
 - **[`storage-oxidation.md`](storage-oxidation.md)** — how hops degrade, how to slow it, what off-aromas to recognize.
+- **[`sensory-analysis.md`](sensory-analysis.md)** — sensory framework for evaluating hops. Dry rub, cold tea, hot tea, in beer. Build a personal vocabulary.
 
 ## Mental models for hop usage
 
