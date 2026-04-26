@@ -16,6 +16,8 @@ This section is **NEIPA-first** but expanding into the broader American IPA fami
 - **[`recipes/neipa-template.md`](recipes/neipa-template.md)** — NEIPA base recipe.
 - **[`recipes/west-coast-ipa.md`](recipes/west-coast-ipa.md)** — WCIPA template.
 - **[`recipes/west-coast-dipa.md`](recipes/west-coast-dipa.md)** — WCIPA DIPA at ~9%.
+- **[`yeast-strains.md`](yeast-strains.md)** — strain-by-strain character profiles for NEIPA.
+- **[`yeast-products-neipa.md`](yeast-products-neipa.md)** — practical comparison of liquid vs dry yeast products. **Lallemand Verdant IPA recommendation for most brewers.**
 
 ## Layout
 
